@@ -1,0 +1,52 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "startCommand": "python main.py",
+    "restartPolicyMaxRetries": 5,
+    "restartPolicyWindow": 600
+  },
+  "env": {
+    "ENVIRONMENT": {
+      "description": "Deployment environment",
+      "default": "production"
+    },
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "REPORT_CHANNEL_ID": {
+      "description": "Telegram channel ID for activity reports",
+      "required": true
+    },
+    "ADMIN_IDS": {
+      "description": "Comma-separated admin user IDs",
+      "default": ""
+    },
+    "API_PORT": {
+      "description": "API server port",
+      "default": "5001"
+    },
+    "DASHBOARD_PORT": {
+      "description": "Dashboard server port",
+      "default": "5002"
+    },
+    "API_SECRET": {
+      "description": "Secret key for API requests",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "Database connection URL (PostgreSQL recommended)",
+      "required": false
+    }
+  },
+  "plugins": [
+    {
+      "source": "railway/postgres",
+      "config": {}
+    }
+  ]
+}

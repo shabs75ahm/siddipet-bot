@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: district-bot-db
+    environment:
+      POSTGRES_DB: activities
+      POSTGRES_USER: bot_user
+      POSTGRES_PASSWORD: secure_password_change_this
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U bot_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # District Activity Bot
+  bot:
+    build: .
+    container_name: district-activity-bot
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN}
+      REPORT_CHANNEL_ID: ${REPORT_CHANNEL_ID}
+      ADMIN_IDS: ${ADMIN_IDS}
+      DATABASE_URL: postgresql://bot_user:secure_password_change_this@postgres:5432/activities
+      API_SECRET: ${API_SECRET}
+      ENVIRONMENT: development
+      API_PORT: 5001
+      DASHBOARD_PORT: 5002
+    ports:
+      - "5001:5001"  # API
+      - "5002:5002"  # Dashboard
+    volumes:
+      - ./:/app
+      - ./logs:/app/logs
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # pgAdmin for database management (optional)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: district-bot-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  default:
+    name: district-bot-network

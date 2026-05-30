@@ -1,0 +1,448 @@
+2026-05-30 16:19:53,099 - __main__ - INFO - ============================================================
+2026-05-30 16:19:53,158 - __main__ - INFO - ============================================================
+2026-05-30 16:19:53,161 - __main__ - INFO - Environment: development
+2026-05-30 16:19:53,168 - __main__ - INFO - Database: SQLite
+2026-05-30 16:19:53,168 - __main__ - INFO - Report Channel ID: -8537819439
+2026-05-30 16:21:54,173 - __main__ - INFO - ============================================================
+2026-05-30 16:21:54,177 - __main__ - INFO - 🚀 DISTRICT ACTIVITY MONITORING BOT
+2026-05-30 16:21:54,177 - __main__ - INFO - ============================================================
+2026-05-30 16:21:54,177 - __main__ - INFO - Environment: development
+2026-05-30 16:21:54,184 - __main__ - INFO - Database: SQLite
+2026-05-30 16:21:54,184 - __main__ - INFO - Report Channel ID: -8537819439
+2026-05-30 16:21:54,184 - __main__ - INFO - Starting API server on port 5001...
+2026-05-30 16:21:54,184 - __main__ - INFO - Starting Dashboard on port 5002...
+2026-05-30 16:21:54,184 - __main__ - INFO - ✅ API available at: http://0.0.0.0:5001
+2026-05-30 16:21:54,198 - __main__ - INFO - ✅ Dashboard available at: http://0.0.0.0:5002
+2026-05-30 16:21:54,231 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.30.160.102:5002
+2026-05-30 16:21:54,231 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.30.160.102:5001
+2026-05-30 16:21:54,231 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:21:54,245 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:21:56,196 - __main__ - INFO - 🤖 Starting Telegram Bot...
+2026-05-30 16:21:56,637 - database - INFO - Database initialized
+2026-05-30 16:21:57,334 - __main__ - ERROR - ❌ Fatal error: 'property' object has no attribute 'run_repeating'
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\main.py", line 113, in main
+    await bot.run()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 368, in run
+    await self.setup_periodic_reports(self.app.context_types.context)
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 311, in setup_periodic_reports
+    context.job_queue.run_repeating(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'property' object has no attribute 'run_repeating'
+2026-05-30 16:24:44,539 - __main__ - INFO - ============================================================
+2026-05-30 16:24:44,544 - __main__ - INFO - 🚀 DISTRICT ACTIVITY MONITORING BOT
+2026-05-30 16:24:44,544 - __main__ - INFO - ============================================================
+2026-05-30 16:24:44,544 - __main__ - INFO - Environment: development
+2026-05-30 16:24:44,544 - __main__ - INFO - Database: SQLite
+2026-05-30 16:24:44,544 - __main__ - INFO - Report Channel ID: -8537819439
+2026-05-30 16:24:44,544 - __main__ - INFO - Starting API server on port 5001...
+2026-05-30 16:24:44,544 - __main__ - INFO - Starting Dashboard on port 5002...
+2026-05-30 16:24:44,544 - __main__ - INFO - ✅ API available at: http://0.0.0.0:5001
+2026-05-30 16:24:44,544 - __main__ - INFO - ✅ Dashboard available at: http://0.0.0.0:5002
+2026-05-30 16:24:44,587 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.30.160.102:5001
+2026-05-30 16:24:44,587 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.30.160.102:5002
+2026-05-30 16:24:44,591 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:24:44,591 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:24:46,559 - __main__ - INFO - 🤖 Starting Telegram Bot...
+2026-05-30 16:24:46,591 - database - INFO - Database initialized
+2026-05-30 16:24:47,327 - __main__ - ERROR - ❌ Fatal error: 'property' object has no attribute 'run_repeating'
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\main.py", line 114, in main
+    await bot.run()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 368, in run
+    await self.setup_periodic_reports(self.app.context_types.context)
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 311, in setup_periodic_reports
+    context.job_queue.run_repeating(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'property' object has no attribute 'run_repeating'
+2026-05-30 16:25:11,647 - __main__ - INFO - ============================================================
+2026-05-30 16:25:11,647 - __main__ - INFO - 🚀 DISTRICT ACTIVITY MONITORING BOT
+2026-05-30 16:25:11,651 - __main__ - INFO - ============================================================
+2026-05-30 16:25:11,651 - __main__ - INFO - Environment: development
+2026-05-30 16:25:11,651 - __main__ - INFO - Database: SQLite
+2026-05-30 16:25:11,656 - __main__ - INFO - Report Channel ID: -8537819439
+2026-05-30 16:25:11,661 - __main__ - INFO - Starting API server on port 5001...
+2026-05-30 16:25:11,665 - __main__ - INFO - Starting Dashboard on port 5002...
+2026-05-30 16:25:11,670 - __main__ - INFO - ✅ API available at: http://0.0.0.0:5001
+2026-05-30 16:25:11,670 - __main__ - INFO - ✅ Dashboard available at: http://0.0.0.0:5002
+2026-05-30 16:25:11,715 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.30.160.102:5002
+2026-05-30 16:25:11,715 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.30.160.102:5001
+2026-05-30 16:25:11,715 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:25:11,715 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:25:13,669 - __main__ - INFO - 🤖 Starting Telegram Bot...
+2026-05-30 16:25:13,694 - database - INFO - Database initialized
+2026-05-30 16:25:14,382 - __main__ - ERROR - ❌ Fatal error: 'property' object has no attribute 'run_repeating'
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\main.py", line 114, in main
+    await bot.run()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 368, in run
+    await self.setup_periodic_reports(self.app.context_types.context)
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 311, in setup_periodic_reports
+    context.job_queue.run_repeating(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'property' object has no attribute 'run_repeating'
+2026-05-30 16:25:31,786 - __main__ - INFO - ============================================================
+2026-05-30 16:25:31,786 - __main__ - INFO - 🚀 DISTRICT ACTIVITY MONITORING BOT
+2026-05-30 16:25:31,797 - __main__ - INFO - ============================================================
+2026-05-30 16:25:31,797 - __main__ - INFO - Environment: development
+2026-05-30 16:25:31,797 - __main__ - INFO - Database: SQLite
+2026-05-30 16:25:31,797 - __main__ - INFO - Report Channel ID: -8537819439
+2026-05-30 16:25:31,805 - __main__ - INFO - Starting API server on port 5001...
+2026-05-30 16:25:31,805 - __main__ - INFO - Starting Dashboard on port 5002...
+2026-05-30 16:25:31,813 - __main__ - INFO - ✅ API available at: http://0.0.0.0:5001
+2026-05-30 16:25:31,813 - __main__ - INFO - ✅ Dashboard available at: http://0.0.0.0:5002
+2026-05-30 16:25:31,856 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.30.160.102:5002
+2026-05-30 16:25:31,856 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.30.160.102:5001
+2026-05-30 16:25:31,863 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:25:31,870 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:25:33,808 - __main__ - INFO - 🤖 Starting Telegram Bot...
+2026-05-30 16:25:33,832 - database - INFO - Database initialized
+2026-05-30 16:25:34,441 - __main__ - ERROR - ❌ Fatal error: 'property' object has no attribute 'run_repeating'
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\main.py", line 114, in main
+    await bot.run()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 368, in run
+    await self.setup_periodic_reports(self.app.context_types.context)
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 311, in setup_periodic_reports
+    context.job_queue.run_repeating(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'property' object has no attribute 'run_repeating'
+2026-05-30 16:26:58,496 - __main__ - INFO - ============================================================
+2026-05-30 16:26:58,496 - __main__ - INFO - 🚀 DISTRICT ACTIVITY MONITORING BOT
+2026-05-30 16:26:58,496 - __main__ - INFO - ============================================================
+2026-05-30 16:26:58,496 - __main__ - INFO - Environment: development
+2026-05-30 16:26:58,498 - __main__ - INFO - Database: SQLite
+2026-05-30 16:26:58,498 - __main__ - INFO - Report Channel ID: -8537819439
+2026-05-30 16:26:58,498 - __main__ - INFO - Starting API server on port 5001...
+2026-05-30 16:26:58,498 - __main__ - INFO - Starting Dashboard on port 5002...
+2026-05-30 16:26:58,507 - __main__ - INFO - ✅ API available at: http://0.0.0.0:5001
+2026-05-30 16:26:58,509 - __main__ - INFO - ✅ Dashboard available at: http://0.0.0.0:5002
+2026-05-30 16:26:58,545 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.30.160.102:5002
+2026-05-30 16:26:58,545 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.30.160.102:5001
+2026-05-30 16:26:58,547 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:26:58,547 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:27:00,511 - __main__ - INFO - 🤖 Starting Telegram Bot...
+2026-05-30 16:27:00,532 - database - INFO - Database initialized
+2026-05-30 16:27:01,130 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-30 16:27:01,146 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-30 16:27:01,146 - bot - INFO - Starting District Activity Monitoring Bot...
+2026-05-30 16:27:02,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/botAAEl7v6fJrzKP02IG6ZnJtPmNctbvvw7crY/getMe "HTTP/1.1 404 Not Found"
+2026-05-30 16:27:02,001 - __main__ - ERROR - ❌ Fatal error: The token `AAEl7v6fJrzKP02IG6ZnJtPmNctbvvw7crY` was rejected by the server.
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 604, in initialize
+    await self.get_me()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1692, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 394, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 749, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 482, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\ext\_extbot.py", line 335, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 510, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\request\_baserequest.py", line 323, in _request_wrapper
+    raise InvalidToken(message)
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\main.py", line 114, in main
+    await bot.run()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 372, in run
+    await self.app.initialize()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\ext\_application.py", line 422, in initialize
+    await self.bot.initialize()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\ext\_extbot.py", line 281, in initialize
+    await super().initialize()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 606, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `AAEl7v6fJrzKP02IG6ZnJtPmNctbvvw7crY` was rejected by the server.
+2026-05-30 16:29:07,680 - __main__ - ERROR - ❌ REPORT_CHANNEL_ID not set
+2026-05-30 16:31:34,002 - __main__ - INFO - ============================================================
+2026-05-30 16:31:34,002 - __main__ - INFO - 🚀 DISTRICT ACTIVITY MONITORING BOT
+2026-05-30 16:31:34,002 - __main__ - INFO - ============================================================
+2026-05-30 16:31:34,002 - __main__ - INFO - Environment: development
+2026-05-30 16:31:34,002 - __main__ - INFO - Database: SQLite
+2026-05-30 16:31:34,002 - __main__ - INFO - Report Channel ID: -8537819439
+2026-05-30 16:31:34,018 - __main__ - INFO - Starting API server on port 5001...
+2026-05-30 16:31:34,018 - __main__ - INFO - Starting Dashboard on port 5002...
+2026-05-30 16:31:34,018 - __main__ - INFO - ✅ API available at: http://0.0.0.0:5001
+2026-05-30 16:31:34,018 - __main__ - INFO - ✅ Dashboard available at: http://0.0.0.0:5002
+2026-05-30 16:31:34,056 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.30.160.102:5001
+2026-05-30 16:31:34,056 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.30.160.102:5002
+2026-05-30 16:31:34,056 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:31:34,056 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:31:36,030 - __main__ - INFO - 🤖 Starting Telegram Bot...
+2026-05-30 16:31:36,056 - database - INFO - Database initialized
+2026-05-30 16:31:36,683 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-30 16:31:36,683 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-30 16:31:36,695 - bot - INFO - Starting District Activity Monitoring Bot...
+2026-05-30 16:31:37,343 - httpx - INFO - HTTP Request: POST https://api.telegram.org/botAAEl7v6fJrzKP02IG6ZnJtPmNctbvvw7crY/getMe "HTTP/1.1 404 Not Found"
+2026-05-30 16:31:37,347 - __main__ - ERROR - ❌ Fatal error: The token `AAEl7v6fJrzKP02IG6ZnJtPmNctbvvw7crY` was rejected by the server.
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 604, in initialize
+    await self.get_me()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1692, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 394, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 749, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 482, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\ext\_extbot.py", line 335, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 510, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\request\_baserequest.py", line 323, in _request_wrapper
+    raise InvalidToken(message)
+telegram.error.InvalidToken: Not Found
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\main.py", line 114, in main
+    await bot.run()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\bot.py", line 372, in run
+    await self.app.initialize()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\ext\_application.py", line 422, in initialize
+    await self.bot.initialize()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\ext\_extbot.py", line 281, in initialize
+    await super().initialize()
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\venv\Lib\site-packages\telegram\_bot.py", line 606, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `AAEl7v6fJrzKP02IG6ZnJtPmNctbvvw7crY` was rejected by the server.
+2026-05-30 16:37:48,476 - __main__ - INFO - ============================================================
+2026-05-30 16:37:48,477 - __main__ - INFO - 🚀 DISTRICT ACTIVITY MONITORING BOT
+2026-05-30 16:37:48,477 - __main__ - INFO - ============================================================
+2026-05-30 16:37:48,477 - __main__ - INFO - Environment: development
+2026-05-30 16:37:48,478 - __main__ - INFO - Database: sqlite:///activities.db
+2026-05-30 16:37:48,478 - __main__ - INFO - Report Channel ID: -1001234567890
+2026-05-30 16:37:48,482 - __main__ - INFO - Starting API server on port 5001...
+2026-05-30 16:37:48,484 - __main__ - INFO - Starting Dashboard on port 5002...
+2026-05-30 16:37:48,489 - __main__ - INFO - ✅ API available at: http://0.0.0.0:5001
+2026-05-30 16:37:48,490 - __main__ - INFO - ✅ Dashboard available at: http://0.0.0.0:5002
+2026-05-30 16:37:48,523 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.30.160.102:5002
+2026-05-30 16:37:48,524 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.30.160.102:5001
+2026-05-30 16:37:48,526 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:37:48,528 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:37:50,491 - __main__ - ERROR - ❌ Fatal error: invalid literal for int() with base 10: 'your_telegram_user_id'
+Traceback (most recent call last):
+  File "C:\Users\ZOI\Desktop\CAT-HORNET\SiddipetBot\Siddipet (Telegram Bot)\main.py", line 109, in main
+    admin_ids=[int(id.strip()) for id in admin_ids if id.strip()],
+               ^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'your_telegram_user_id'
+2026-05-30 16:40:49,285 - __main__ - INFO - ============================================================
+2026-05-30 16:40:49,286 - __main__ - INFO - 🚀 DISTRICT ACTIVITY MONITORING BOT
+2026-05-30 16:40:49,287 - __main__ - INFO - ============================================================
+2026-05-30 16:40:49,287 - __main__ - INFO - Environment: development
+2026-05-30 16:40:49,288 - __main__ - INFO - Database: sqlite:///activities.db
+2026-05-30 16:40:49,288 - __main__ - INFO - Report Channel ID: -1822606014
+2026-05-30 16:40:49,293 - __main__ - INFO - Starting API server on port 5001...
+2026-05-30 16:40:49,294 - __main__ - INFO - Starting Dashboard on port 5002...
+2026-05-30 16:40:49,301 - __main__ - INFO - ✅ API available at: http://0.0.0.0:5001
+2026-05-30 16:40:49,301 - __main__ - INFO - ✅ Dashboard available at: http://0.0.0.0:5002
+2026-05-30 16:40:49,342 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.30.160.102:5001
+2026-05-30 16:40:49,342 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.30.160.102:5002
+2026-05-30 16:40:49,346 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:40:49,346 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-05-30 16:40:51,308 - __main__ - INFO - 🤖 Starting Telegram Bot...
+2026-05-30 16:40:51,333 - database - INFO - Database initialized
+2026-05-30 16:40:51,884 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-30 16:40:51,884 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-30 16:40:51,884 - bot - INFO - Starting District Activity Monitoring Bot...
+2026-05-30 16:40:56,740 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getMe "HTTP/1.1 200 OK"
+2026-05-30 16:40:56,740 - apscheduler.scheduler - INFO - Added job "send_hourly_report" to job store "default"
+2026-05-30 16:40:56,740 - apscheduler.scheduler - INFO - Added job "send_daily_summary" to job store "default"
+2026-05-30 16:40:56,740 - apscheduler.scheduler - INFO - Scheduler started
+2026-05-30 16:40:56,749 - telegram.ext.Application - INFO - Application started
+2026-05-30 16:40:57,057 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/deleteWebhook "HTTP/1.1 200 OK"
+2026-05-30 16:41:07,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:41:18,021 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:41:28,263 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:41:38,530 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:41:48,891 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:41:51,890 - apscheduler.executors.default - INFO - Running job "send_hourly_report (trigger: interval[1:00:00], next run at: 2026-05-30 12:11:51 UTC)" (scheduled at 2026-05-30 11:11:51.881379+00:00)
+2026-05-30 16:41:51,901 - bot - ERROR - Error sending hourly report: get_stats() got an unexpected keyword argument 'hours'
+2026-05-30 16:41:51,901 - apscheduler.executors.default - INFO - Job "send_hourly_report (trigger: interval[1:00:00], next run at: 2026-05-30 12:11:51 UTC)" executed successfully
+2026-05-30 16:41:59,113 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:42:09,300 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:42:19,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:42:29,752 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:42:40,184 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:42:50,426 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:43:00,994 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:43:11,402 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:43:21,784 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:43:32,195 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:43:42,604 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:43:52,989 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:44:03,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:44:13,460 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:44:23,883 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:44:34,262 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:44:44,663 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:44:55,068 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:45:05,310 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:45:15,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:45:25,961 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:45:36,387 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:45:46,609 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:45:56,997 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:46:07,271 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:46:17,611 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:46:28,365 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:46:38,767 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:46:49,039 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:46:59,410 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:47:09,882 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:47:20,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:47:31,672 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:47:42,302 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:48:05,242 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:48:15,461 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:48:25,868 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:48:36,288 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:48:46,876 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:48:57,152 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:49:07,371 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:49:17,551 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:49:27,735 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:49:37,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:49:48,107 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:49:58,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:50:08,527 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:50:18,824 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:50:29,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:50:39,203 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:50:49,421 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:50:59,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:51:09,780 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:51:19,965 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:51:30,146 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:51:40,405 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:51:50,637 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:52:00,821 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:52:11,118 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:52:21,341 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:52:31,841 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:52:42,161 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:52:52,449 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:53:02,646 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:53:12,882 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:53:23,132 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:53:33,337 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:53:43,524 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:53:53,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:54:03,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:54:14,169 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:54:24,709 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:54:34,976 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:54:45,187 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:54:55,423 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:55:05,703 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:55:15,925 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:55:26,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:55:36,376 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:55:46,667 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:55:56,903 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:56:07,140 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:56:17,364 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:56:27,792 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:56:38,006 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:56:48,213 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:56:59,127 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:57:09,383 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:57:19,574 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:57:29,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:57:41,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:57:51,289 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:58:01,511 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:58:11,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:58:21,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:58:32,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:58:42,307 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:58:52,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:59:02,691 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:59:12,870 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:59:23,052 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:59:33,375 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:59:43,638 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 16:59:53,818 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:00:04,097 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:00:14,293 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:00:24,510 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:00:34,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:00:44,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:00:55,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:01:05,324 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
