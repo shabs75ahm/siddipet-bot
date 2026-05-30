@@ -446,3 +446,8 @@ ValueError: invalid literal for int() with base 10: 'your_telegram_user_id'
 2026-05-30 17:00:44,944 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
 2026-05-30 17:00:55,145 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
 2026-05-30 17:01:05,324 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:01:15,503 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:01:25,704 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:01:35,894 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:01:46,108 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
+2026-05-30 17:01:56,295 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7992183763:AAHieLLVTyWs2CgLVsKN_1snLBN0IMhFeFQ/getUpdates "HTTP/1.1 200 OK"
