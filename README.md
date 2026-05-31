@@ -37,6 +37,7 @@ Activity Categories
 
 
 Severity Levels
+
 🟢 Low
 
 🟡 Medium
