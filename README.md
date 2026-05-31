@@ -22,4 +22,4 @@ Severity Levels
 🟢 Low
 🟡 Medium
 🔴 High
-⛔ Critical
+⛔ Critical �
