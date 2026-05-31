@@ -19,7 +19,7 @@ httpx==0.24.1
 # Web Scraping
 beautifulsoup4==4.12.2
 snscrape==0.7.0.20230622
-lxml==4.9.3
+lxml==5.3.0
 
 # Trends & Analytics
 pytrends==4.9.2
