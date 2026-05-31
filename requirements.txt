@@ -14,7 +14,7 @@ SQLAlchemy==2.0.21
 
 # API & HTTP
 requests==2.31.0
-httpx==0.24.1
+httpx==0.28.0
 
 # Web Scraping
 beautifulsoup4==4.12.2
